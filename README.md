@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## mes-react-vite
+## react-vite
 본 프로젝트는 React 19와 Vite 7을 기반으로 한 고성능 엔지니어링 실행 시스템(EES) 프런트엔드 솔루션을 위한 샘플입니다. <br/>
 대용량 데이터 처리와 실시간 시각화에 최적화된 아키텍처로 구성되어 있습니다.<br/>
 next.js를 사용하지 않는 대신 vite 를 사용한 이유는 압도적인 개발 및 빌드 속도, 아키텍처의 단순화, 호스팅 및 배포 전략의 경제성, 기술 스택 종속성 해소 를 위해서 제거했습니다.<br/>
