@@ -29,7 +29,7 @@ next.js를 사용하지 않는 대신 vite 를 사용한 이유는 압도적인 
 
  최종적으로 script 내부 코드 수정, release 명령어 한번으로 선행 내용 모두 끝낸다.
 
- 수정 된 script 기반으로 npm run release: 최종적으로 버전업 > 빌드 > 압축까지 한번에 진행.
+ 수정 된 script 기반으로 npm run release: 최종적으로 버전업 > 빌드 > 압축 > target 디렉토리에 버전 파일 저장까지 한번에 진행.
 <br/>
 
 ## Tech Stack (commit 기준)
