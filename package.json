@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "package": "npm run build && powershell -Command \"$v = (Get-Content package.json | ConvertFrom-Json).version; tar -cvf ees-react-vite.$v.tar ./dist\"",
+    "package": "npm run build && powershell -Command \"$v = (Get-Content package.json | ConvertFrom-Json).version; tar -cvf target/ees-react-vite.$v.tar ./dist\"",
     "release": "npm version patch && npm run package"
   },
   "dependencies": {
